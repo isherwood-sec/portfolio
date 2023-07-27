@@ -1,8 +1,7 @@
-baseURL = 'https://github.com/isherwood-sec/portfolio/home.md'
+baseURL = 'home.md'
 languageCode = 'en-us'
 title = 'Anthony Isherwood'
 theme = "m10c"
-
 
 [params]
   author = "Anthony Isherwood"

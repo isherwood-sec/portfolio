@@ -7,7 +7,7 @@
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    url = "/home/"
     weight = 1
   [[menu.main]]
     identifier = "services"
@@ -30,9 +30,9 @@
     url = "/contact/"
     weight = 5
 
-[params.style]
-   darkestColor = "#242930"
-   darkColor = "#353b43"
-   lightColor = "#afbac4"
-   lightestColor = "#ffffff"
-   primaryColor = "#4488F3"
+# [params.style]
+#    darkestColor = "#242930"
+#    darkColor = "#353b43"
+#    lightColor = "#afbac4"
+#    lightestColor = "#ffffff"
+#    primaryColor = "#4488F3"
