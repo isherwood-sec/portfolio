@@ -1,4 +1,18 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Anthony Isherwood'
 theme = "m10c"
+
+
+[params]
+  author = "Anthony Isherwood"
+  description = "Cyber Security expertise for individuals and businesses."
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/isherwood-sec"
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/anthonyisherwood/"

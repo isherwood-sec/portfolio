@@ -2,3 +2,31 @@
   [module.hugoVersion]
     extended = true
     min = "0.55.0"
+
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 2
+  [[menu.main]]
+    identifier = "courses"
+    name = "Courses"
+    url = "/courses/"
+    weight = 3
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 4
+  [[menu.main]]
+    identifier = "Contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 5

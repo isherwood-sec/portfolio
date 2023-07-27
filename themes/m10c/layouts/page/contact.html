@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            {{ .Content }}
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form action="https://formspree.io/f/mrgwbnjo" method="POST">
+            <label>
+              Your email: </br>
+              <input type="email" name="email">
+            </label></br>
+            <label>
+              Your message:  </br>
+              <textarea rows="4" cols="100" name="message"></textarea>
+            </label></br>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+            </form>
+                    </div>
+                </div>
+            </div>
+{{ end }}
