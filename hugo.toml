@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://github.com/isherwood-sec/portfolio/home.md'
 languageCode = 'en-us'
 title = 'Anthony Isherwood'
 theme = "m10c"
@@ -21,3 +21,4 @@ theme = "m10c"
     icon = "mail"
     name = "E-Mail"
     url = "mailto:isherwoodsec@fastmail.com"
+
